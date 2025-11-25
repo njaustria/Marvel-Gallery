@@ -88,3 +88,14 @@ body {
 .card:hover img {
     transform: scale(1.1);
 }
+
+.card-title {
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.card:hover .card-title {
+    color: #ffcc00;
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
+}
