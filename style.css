@@ -104,3 +104,11 @@ body {
     color: black;
 }
 
+.footer {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
