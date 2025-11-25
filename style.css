@@ -56,3 +56,10 @@ body {
 .card-badges {
     margin-top: 10px;
 }
+
+.hero-classification {
+    background-color: #e30419;
+    color: white;
+    margin-bottom: 4px; 
+}
+
