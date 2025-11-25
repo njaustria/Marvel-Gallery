@@ -40,20 +40,20 @@
         for (let i = 0; i < images.length; i++) {
             var item = images[i];
             containerRow.innerHTML += `
-    <div class="col-6 col-md-4 col-lg-3 mb-4">
-      <div class="card shadow-sm h-100">
-        <img src="${item.src}" class="card-img-top" alt="${item.title}">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">${item.title}</h5>
-          <p class="card-text">${item.desc}</p>
-          <div class="card-badges mt-auto">
-            <div class="hero-classification badge">${item.classification}</div>
-            <div class="team-affiliation badge">Team: ${item.team}</div>
-          </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow-sm h-100">
+                <img src="${item.src}" class="card-img-top" alt="${item.title}">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">${item.title}</h5>
+                    <p class="card-text">${item.desc}</p>
+                    <div class="card-badges mt-auto">
+                        <div class="hero-classification badge">${item.classification}</div>
+                        <div class="team-affiliation badge">Team: ${item.team}</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    `;
+        `;
         }
     </script>
 
