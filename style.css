@@ -99,3 +99,8 @@ body {
     color: #ffcc00;
     text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
 }
+
+.card-text {
+    color: black;
+}
+
