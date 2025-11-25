@@ -34,3 +34,8 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card-body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
